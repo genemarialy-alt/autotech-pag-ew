@@ -786,9 +786,9 @@ footer {
 .video-container {
   position: relative;
   width: 100%;
-  max-width: 900px;
+  max-width: 800px; /* limit width for better fit */
   margin: 0 auto;
-  padding-top: 50.625%; /* 16:9 aspect ratio based on max-width */
+  aspect-ratio: 16 / 9;
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: 0 20px 60px -15px rgba(0, 0, 0, 0.6),
