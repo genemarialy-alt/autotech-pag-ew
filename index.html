@@ -193,7 +193,7 @@
             <div class="contact-form glass-card">
                 <h3>Envíanos un Mensaje</h3>
                 <!-- Nota: Para que este formulario envíe correos sin abrir la app de correo, se necesita un servicio externo como Formspree -->
-                <form action="mailto:soporte@autotech.com" method="post" enctype="text/plain">
+                <form id="contact-form">
                     <div class="form-group">
                         <label for="email">Tu Correo Electrónico:</label>
                         <input type="email" id="email" name="Email" required placeholder="ejemplo@correo.com">
@@ -235,6 +235,14 @@
         </div>
     </footer>
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init({
+            publicKey: "TU_PUBLIC_KEY", // Reemplaza esto con tu Public Key de EmailJS
+          });
+       })();
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
