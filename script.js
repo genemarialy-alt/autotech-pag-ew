@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
             submitBtn.disabled = true;
 
             // These IDs from the previous steps
-            emailjs.sendForm('TU_SERVICE_ID', 'TU_TEMPLATE_ID', this)
+            emailjs.sendForm('service_aroz5h4', 'template_amvfmx8', this)
                 .then(() => {
                     alert('¡Mensaje enviado con éxito! Nos pondremos en contacto pronto.');
                     contactForm.reset();
