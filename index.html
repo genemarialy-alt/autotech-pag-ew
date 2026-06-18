@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoTech - Conectando Conductores y Talleres</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="public/LOGO_FONFO_NEGRO.png" alt="AutoTech Logo" style="height: 40px; width: auto; object-fit: contain;">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#conductores">Para Conductores</a></li>
+            <li><a href="#talleres">Para Talleres</a></li>
+            <li><a href="#planes">Planes (Talleres)</a></li>
+            <li><a href="#soporte">Soporte</a></li>
+            <li><a href="#acerca">Acerca de</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="hero-content">
+            <div class="badge-pill">El Futuro del Cuidado Automotriz</div>
+            <h1>La conexión perfecta entre <span class="text-gradient">tu vehículo</span> y el <span class="text-gradient">mejor taller</span></h1>
+            <p>AutoTech revoluciona la experiencia automotriz. Conductores encuentran los mejores talleres, reciben recordatorios de mantenimiento y asistencia inteligente. Los talleres digitalizan y potencian sus servicios.</p>
+            <div class="hero-buttons">
+                <a href="#conductores" class="btn-primary">Soy Conductor</a>
+                <a href="#talleres" class="btn-secondary">Soy Dueño de Taller</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="glass-card mockup premium-mockup">
+                <div class="mockup-header">
+                    <i class="fa-solid fa-robot gradient-icon"></i>
+                    <h4>Asistente IA AutoTech</h4>
+                </div>
+                <div class="chat-bubble left">¡Hola! Noto que ya es tiempo de cambiar el aceite de tu Honda Civic.</div>
+                <div class="chat-bubble right">¡Gracias! ¿Puedes buscar talleres cercanos para hacerlo?</div>
+                <div class="chat-bubble left">¡Por supuesto! He encontrado 3 talleres con excelentes reseñas a menos de 5 km.</div>
+            </div>
+        </div>
+    </header>
+
+    <section id="conductores" class="section split-section">
+        <div class="section-image">
+            <div class="glass-card driver-card">
+                <div class="card-icon"><i class="fa-solid fa-car-side"></i></div>
+                <h3>Mi Garage Virtual</h3>
+                <ul class="maintenance-list">
+                    <li class="alert"><i class="fa-solid fa-oil-can"></i> Cambio de Aceite <span>En 2 días</span></li>
+                    <li class="warning"><i class="fa-solid fa-car-burst"></i> Líquido de Frenos <span>En 1 mes</span></li>
+                    <li class="ok"><i class="fa-solid fa-check-circle"></i> Revisión General <span>Al día</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="section-content">
+            <h2 class="text-left">Todo para el cuidado de <span class="text-gradient">tu auto</span></h2>
+            <p>Registra tus vehículos en AutoTech y olvídate de las preocupaciones. Nosotros nos encargamos de recordarte cuándo es el momento ideal para el mantenimiento preventivo.</p>
+            <ul class="feature-bullets">
+                <li><i class="fa-solid fa-map-location-dot"></i> <strong>Encuentra Talleres:</strong> Descubre talleres verificados cerca de ti, lee reseñas y compara servicios.</li>
+                <li><i class="fa-solid fa-bell"></i> <strong>Recordatorios Automáticos:</strong> Alertas para cambio de aceite, líquido de frenos, y revisiones.</li>
+                <li><i class="fa-solid fa-robot"></i> <strong>Asistente Virtual:</strong> Resuelve dudas mecánicas básicas y te guía en el proceso de buscar un taller.</li>
+                <li><i class="fa-solid fa-comments"></i> <strong>Chat Directo:</strong> Vincula tu cuenta con tu taller de confianza y comunícate sin intermediarios.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="talleres" class="section split-section reverse">
+        <div class="section-content">
+            <h2 class="text-left">Digitaliza y haz crecer <span class="text-gradient">tu taller</span></h2>
+            <p>AutoTech es el software CRM definitivo para talleres. Gestiona tu agenda, clientes y vehículos de forma centralizada mientras consigues nuevos clientes a través de nuestra red de conductores.</p>
+            <ul class="feature-bullets">
+                <li><i class="fa-solid fa-users"></i> <strong>Atracción de Clientes:</strong> Aparece en el mapa de conductores que buscan servicios cerca de ti.</li>
+                <li><i class="fa-solid fa-calendar-check"></i> <strong>Agenda Inteligente:</strong> Permite que los clientes agenden citas directamente desde la app.</li>
+                <li><i class="fa-solid fa-clipboard-list"></i> <strong>Historial Completo:</strong> Lleva un registro detallado de las reparaciones y servicios de cada vehículo.</li>
+                <li><i class="fa-solid fa-message"></i> <strong>Atención al Cliente:</strong> Usa nuestro Asistente de IA para responder dudas frecuentes 24/7.</li>
+            </ul>
+        </div>
+        <div class="section-image">
+            <div class="glass-card workshop-card">
+                <div class="card-icon"><i class="fa-solid fa-wrench"></i></div>
+                <h3>Panel de Control</h3>
+                <div class="dashboard-mock">
+                    <div class="dash-item"><i class="fa-solid fa-calendar"></i> 5 Citas Hoy</div>
+                    <div class="dash-item highlight"><i class="fa-solid fa-bell"></i> 2 Nuevas Solicitudes</div>
+                    <div class="dash-item"><i class="fa-solid fa-car"></i> 12 Vehículos en Taller</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="descargas" class="section bg-dark text-center">
+        <h2>Descarga Nuestra App</h2>
+        <p class="subtitle">Lleva el control de tu vehículo o taller en tu bolsillo</p>
+        <div class="downloads-container">
+            <a href="https://drive.google.com/file/d/1i0lwCRnxLQTHAlxZtpB0rhgkes82_8WI/view?usp=sharing" target="_blank" class="download-btn">
+                <i class="fa-brands fa-windows"></i>
+                <div class="btn-text">
+                    <span>Descargar para</span>
+                    <strong>Windows</strong>
+                </div>
+            </a>
+            <a href="https://drive.google.com/file/d/1d53mput-h4nxAdKKixhqg9f2YdfxopdG/view?usp=sharing" target="_blank" class="download-btn android">
+                <i class="fa-brands fa-android"></i>
+                <div class="btn-text">
+                    <span>Descargar para</span>
+                    <strong>Android</strong>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="planes" class="section bg-light">
+        <h2>Planes Disponibles</h2>
+        <p class="subtitle">Encuentra el plan ideal para ti, ya seas conductor o dueño de taller.</p>
+        <div class="pricing-container" style="gap: 2rem;">
+            <!-- Plan Conductor -->
+            <div class="pricing-card glass-card">
+                <div class="badge" style="background: var(--color-accent);">1 Mes Gratis</div>
+                <h3>Plan Conductor Plus</h3>
+                <div class="price"><span>$</span>5<span>/mes</span></div>
+                <ul class="features-list">
+                    <li><i class="fa-solid fa-check"></i> Recordatorios ilimitados de mantenimiento</li>
+                    <li><i class="fa-solid fa-check"></i> Asesoría prioritaria con Asistente IA</li>
+                    <li><i class="fa-solid fa-check"></i> Historial detallado de vehículos</li>
+                    <li><i class="fa-solid fa-check"></i> Acceso a promociones exclusivas</li>
+                </ul>
+                <a href="#soporte" class="btn-secondary w-100">Comenzar Prueba</a>
+            </div>
+
+            <!-- Plan Taller -->
+            <div class="pricing-card glass-card premium">
+                <div class="badge">1 Mes Gratis</div>
+                <h3>Plan Profesional (Taller)</h3>
+                <div class="price"><span>$</span>20<span>/mes</span></div>
+                <ul class="features-list">
+                    <li><i class="fa-solid fa-check"></i> Visibilidad en el mapa de conductores</li>
+                    <li><i class="fa-solid fa-check"></i> Gestión ilimitada de clientes e historial</li>
+                    <li><i class="fa-solid fa-check"></i> Chat integrado con clientes</li>
+                    <li><i class="fa-solid fa-check"></i> Agenda de citas automatizada</li>
+                    <li><i class="fa-solid fa-check"></i> Asistente de IA para el taller</li>
+                </ul>
+                <a href="#soporte" class="btn-primary w-100">Suscribirse Ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="soporte" class="section">
+        <h2>Soporte y Contacto</h2>
+        <div class="support-container">
+            <div class="faq-container">
+                <h3>Preguntas Frecuentes</h3>
+                <div class="faq-item">
+                    <button class="faq-question">¿Tiene algún costo para los conductores? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>Sí, el Plan Conductor Plus tiene un costo de $5 al mes. Sin embargo, te ofrecemos <strong>1 mes de prueba gratis</strong> para que experimentes todas las ventajas de tener el control de tu auto y asistencia IA.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">¿Cómo me comunico con mi taller? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>Una vez que te vincules con un taller registrado en AutoTech, podrás usar el chat integrado en nuestra plataforma para comunicarte directamente con ellos.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">¿El Asistente IA reemplaza a un mecánico? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>No. Nuestro Asistente está diseñado para darte consejos preventivos, recordatorios y ayudarte a encontrar un taller especializado, pero siempre recomendamos la revisión de un profesional.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">¿Puedo cancelar mi plan en cualquier momento? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>¡Por supuesto! No hay contratos forzosos. Puedes cancelar tu suscripción mensual en el momento que decidas sin cargos ocultos.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">¿Cómo busco talleres cercanos? <i class="fa-solid fa-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <p>Dentro de tu Garage Virtual, tenemos un mapa interactivo. Al darle permisos de ubicación, te mostraremos los mejores talleres de nuestra red que se encuentren cerca de ti.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form glass-card">
+                <h3>Envíanos un Mensaje</h3>
+                <!-- Nota: Para que este formulario envíe correos sin abrir la app de correo, se necesita un servicio externo como Formspree -->
+                <form action="mailto:soporte@autotech.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="email">Tu Correo Electrónico:</label>
+                        <input type="email" id="email" name="Email" required placeholder="ejemplo@correo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="Mensaje" rows="4" required placeholder="Escribe tu duda aquí..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary w-100">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="acerca" class="section bg-dark text-center">
+        <h2>Acerca de Nosotros</h2>
+        <div class="about-content">
+            <div class="icon-wrap">
+                <i class="fa-solid fa-code"></i>
+            </div>
+            <p>AutoTech es un <strong>proyecto colaborativo realizado por estudiantes de la carrera de Ingeniería de Software</strong>.</p>
+            <p>Nuestra misión es llevar la transformación digital al sector automotriz, creando un ecosistema donde talleres y dueños de vehículos interactúen de forma inteligente y eficiente.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="public/LOGO_FONFO_NEGRO.png" alt="AutoTech Logo" style="height: 50px; width: auto; object-fit: contain;">
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Riobamba, 2026</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
